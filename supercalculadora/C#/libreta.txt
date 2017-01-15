@@ -1,0 +1,51 @@
+Resueltas:
+
+* Puede ser negativo el resultaado de una resta en nuestra calculadora?
+
+* Confirmar que efectivamente el orden de los parametros produce resultados diferentes.
+
+Pendientes:
+
+* Cual es el número más pequeño que se permite como parametro?
+
+* Y el más grande?
+
+* Que pasa cuando el resultado es menor que el número más pequeño permitido?
+
+* Que pasa cuando el resultado es mayor que el número más grande permitido?
+
+
+Tests:
+# Aceptación - "2 + 2", devuelve 4
+
+* La cadena "2 + 2" tiene dos números y un operador que son '2', '2' y '+'
+
+# Aceptación - "5 + 4 * 2 / 2", devuelve 9
+
+# Aceptación - "3 / 2", produce ERROR
+
+# Aceptación -"* * 4 - 2": produce ERROR
+
+# Aceptación -"* 4 5 - 2": produce ERROR
+
+# Aceptación -"* 4 5 - 2 : produce ERROR
+
+# Aceptación -"*45-2-": produce ERROR
+
+# Aceptación - "2 + -2", devuelve 0
+
+# Aceptación - Límite Superior = 100
+
+# Aceptación - Límite Superior = 500
+
+# Aceptación - Límite Inferior = -1000
+
+# Aceptación - Límite Inferior = -10
+
+# Aceptación - Limite Superior=100 y parámetro mayor que 100, produce ERROR
+
+# Aceptación - Limite Superior=100 y resultado mayor que 100, produce ERROR
+
+# Aceptación - Limite Inferior=10 y parámetro menor que 10, produce ERROR
+
+# Aceptación - Límite Inferior=10 y resultado meno que 10, produce ERROR
